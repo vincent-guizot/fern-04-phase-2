@@ -4,7 +4,7 @@ import BasicContext from "./components/BasicContext/BasicContext";
 function App() {
   return (
     <>
-      <BasicContext></BasicContext>
+      {/* <BasicContext></BasicContext> */}
     </>
   );
 }
