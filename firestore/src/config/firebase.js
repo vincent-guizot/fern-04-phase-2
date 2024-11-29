@@ -8,12 +8,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTHDOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECTID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGEBUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGINGSENDERID,
-    appId: import.meta.env.VITE_FIREBASE_APPID,
+  apiKey: "AIzaSyAoHSIh3amZ9yMeUSGR8NoeCfmRgdgg-Qk",
+  authDomain: "product-fern.firebaseapp.com",
+  projectId: "product-fern",
+  storageBucket: "product-fern.firebasestorage.app",
+  messagingSenderId: "328566385626",
+  appId: "1:328566385626:web:3cd310b1565f4be9d22ee3",
 };
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
